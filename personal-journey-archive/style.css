@@ -1,0 +1,52 @@
+	body {
+		background-color: #DDE2BD;
+		font-family: Opensans;
+		font-size: 30px;
+		color: white;
+		line-height: 35px;
+		letter-spacing: 0.8px;
+	}
+
+	a {
+		color: white;
+		text-decoration: none;
+		line-height: 30px;
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 30px;
+		line-height: 1.6;
+		letter-spacing: 0.7px;
+	}
+
+	h1 {
+		padding-left: 8%;
+
+	}
+
+	h3 {
+		padding-top: 20%;
+		text-align: center;
+	}
+
+.content1 {
+	padding-left: 10%;
+	letter-spacing: 1px;
+	
+}
+
+.content2 {
+	padding-top: 5%;
+	padding-left: 20%%;
+}
+
+.content3 {
+	padding-top: 22%;
+	padding-left: 40%;
+}
+
+.content4 {
+	padding-top: 
+	padding-right: 40px;
+}
