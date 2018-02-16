@@ -1,0 +1,117 @@
+@font-face {
+	font-family: "Montserrat"; src: url("../fonts/Roboto-Regular.ttf");
+	font-family: "Montserrat"; src: url("../fonts/Roboto-Semibold.ttf");
+	font-family: "Montserrat"; src: url("../fonts/Roboto-Bold.ttf");
+	font-family: "Montserrat"; src: url("../fonts/Roboto-medium.ttf");2
+	font-family: "Montserrat"; src: url("../fonts/Roboto-light.ttf"); 
+}
+
+.title {
+	font-family: Montserrat-Bold, sans-serif;
+	font-size: 100px;
+	font-weight: bolder;
+	padding-top: 25%;
+	text-align: center;
+	letter-spacing: 1.4px;
+}
+
+.text {
+	font-family: Montserrat-medium, sans-serif;
+	font-size: 42px;
+	font-weight: medium;
+	text-align: center; 
+	padding-top: 14%;
+
+}
+
+.name {
+	font-family: Montserrat-light;
+	font-size: 23px;
+	text-align: center;
+	font-weight: lighter;
+	margin-top: -110px;
+}
+
+/*
+.name2 {
+	font-family: Montserrat-light;
+	font-size: 23px;
+	text-align: center;
+	font-weight: lighter;
+	margin-top: -10px;
+}
+*/
+
+.question {
+	font-family: Montserrat-Semibold;
+	font-size: 50px;
+	font-weight: medium;
+	text-align: center;
+	letter-spacing: 1.4px;
+}
+
+.answer {
+	font-family: Montserrat-Semibold;
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 40px;
+	letter-spacing: 1.4px;
+	padding-top: 30%;
+	padding-bottom: 20%;
+}
+
+.content {
+	font-family: Montserrat-Semibold;
+	text-align: center;
+	padding-top: 38%;
+}
+
+.arrow {
+	font-family: Montserrat-Semibold;
+	font-size: 60px;
+	text-align: left;
+	padding-left: 25px;
+	font-color: salmon;
+	position: fixed;
+	top: 47%;
+	left: 0;
+	margin-top: -95px;
+}
+
+.yes {
+	font-family: Montserrat-Semibold;
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 1.4px;
+	line-height: 72px;
+}
+
+.no {
+	font-family: Montserrat-Semibold;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 1.4px;
+	padding-bottom: 20%;
+}
+
+#box {
+	width:100%;
+	height: 750px;
+}
+
+#box-top {
+	width: 100%;
+	height: 70px;
+	background-color: #475690;
+	padding-bottom: 45%;
+}
+
+#box-bottom{
+	width: 100%;
+	height: 30px;
+	background-color: #BF2A2A;
+	padding-top: 35%;
+	padding-right: 0%;
+}
