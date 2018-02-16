@@ -1,9 +1,9 @@
 @font-face {
-	font-family: "Montserrat"; src: url("../fonts/Roboto-Regular.ttf");
-	font-family: "Montserrat"; src: url("../fonts/Roboto-Semibold.ttf");
-	font-family: "Montserrat"; src: url("../fonts/Roboto-Bold.ttf");
-	font-family: "Montserrat"; src: url("../fonts/Roboto-medium.ttf");2
-	font-family: "Montserrat"; src: url("../fonts/Roboto-light.ttf"); 
+	font-family: "Montserrat"; src: url("../fonts/Montserrat-Regular.ttf");
+	font-family: "Montserrat"; src: url("../fonts/Montserrat-Semibold.ttf");
+	font-family: "Montserrat"; src: url("../fonts/Montserrat-Bold.ttf");
+	font-family: "Montserrat"; src: url("../fonts/Montserrat-medium.ttf");2
+	font-family: "Montserrat"; src: url("../fonts/Montserrat-light.ttf"); 
 }
 
 .title {
