@@ -1,0 +1,132 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+.table {
+  position: absolute; 
+  background: #b6cbed;
+  top: 58%;
+  height: 40%;
+  border-bottom: 100px solid #b6cbed;
+  border-left: 40vw solid transparent;
+  border-right: 40px solid transparent;
+  height: 5vw;
+  width: 60px;
+  left: 20vw; 
+}
+
+.book-top {
+  position: absolute;
+  top: 50%;
+  left: 28%;
+  width: 21%;
+  height: 5%;
+  background: #ffc8b5;
+}
+
+.book-middle {
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  width: 17%;
+  height: 12%;
+  background: #ff9926;
+}
+
+.book-bottom {
+  position: absolute;
+  top: 67%;
+  left: 31%;
+  width: 15%;
+  height: 3%;
+  background: #ff5f26;
+
+}
+
+.book-back-spine {
+  position: absolute;
+  background: #232866;
+  top: 45%;
+  width: 2vw;
+  height: 10vw;
+  left: 60%;
+}
+
+.book-back-left {
+  position: absolute;
+  background: #232866;
+  top: 36%;
+  left: 50%;
+  width: ;
+}
+
+.candle {
+
+}
+
+.can {
+  position: absolute;
+  background: #dd49b1;
+  top: 65%;
+  left: 26%;
+  height: 11%;
+  width: 4vw;
+  border-radius: 9vw;
+
+}
+
+.cat {
+  position: relative;
+  background: #f9f8f2;
+  top: 36%;
+  left: 45%;
+}
+
+.vase {
+  position: absolute;
+  top: 36%;
+  left: 35%;
+  height: 14%;
+  width: 8%;
+  background: #F7F6F6;
+  z-index: 10;
+  border-radius: 20%;
+  border-top-right-radius: 80%;
+  border-top-left-radius: 80%;
+  border-bottom-right-radius: 70%;
+  border-bottom-left-radius: 70%;
+
+}
+
+.flower {
+  position: relative;
+  background: #ffccf1;
+  top: 35%;
+ 
+
+
+  border-radius: 
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-top: 100vw;
+
+}
+
+/* Your CSS goes here */
