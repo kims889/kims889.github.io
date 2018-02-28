@@ -1,0 +1,220 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+/* Your CSS goes here */
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+.table {
+  position: absolute; 
+  background: #b6cbed;
+  top: 52%;
+  height: 40%;
+  width: 60%;
+  left: 18%; 
+}
+
+.book-top {
+  position: absolute;
+  top: 50%;
+  left: 28%;
+  width: 21%;
+  height: 5%;
+  background: #ffc8b5;
+}
+
+.book-middle {
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  width: 17%;
+  height: 12%;
+  background: #ff9926;
+}
+
+.book-bottom {
+  position: absolute;
+  top: 67%;
+  left: 31%;
+  width: 15%;
+  height: 3%;
+  background: #ff5f26;
+
+}
+
+.book-back-spine {
+  position: absolute;
+  background: #232866;
+  top: 46%;
+  width: 2%;
+  height: 11.8%;
+  left: 61.8%;
+}
+
+.book-back-left {
+  position: absolute;
+  background: #232866;
+  top: 43%;
+  width: 5%;
+  height: 15%;
+  left: 57%;
+  clip-path: polygon(50% 0, 100% 24%, 100% 100%, 51% 78%);
+}
+
+.book-back-right {
+  position: absolute;
+  background: #232866;
+  top: 43%;
+  left: 63.6%;
+  width: 5%;
+  height: 15%;
+  clip-path: polygon(0 20%, 51% 0, 50% 73%, 0 100%);
+}
+
+.banana {
+  position: absolute;
+  background: #FFD722;
+  top: 48%;
+  left: 58%;
+  height: 18%;
+  width: 17%;
+  clip-path: ellipse(7% 40% at 50% 50%);
+}
+
+.white-vase {
+  position: absolute;
+  background: #F9F9F9;
+  top: 60%;
+  left: 64%;
+  height: 12%;
+  width: 6%;
+  border-radius: 15%;
+}
+
+.can {
+  position: absolute;
+  background: #dd49b1;
+  top: 65%;
+  left: 26%;
+  height: 11%;
+  width: 4vw;
+  border-radius: 9vw;
+}
+
+.can-bottom {
+  position: absolute;
+  background: #ECECEC;
+  top: 72%;
+  left: 26%;
+  width: 4%;
+  height: 5%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.cat-body {
+  position: absolute;
+  background: #f9f8f2;
+  top: 66%;
+  left: 53%;
+  width: 8%;
+  height: 14%;
+  -moz-border-radius: 35%;
+  -webkit-border-radius: 35%;
+  border-radius: 40%;
+}
+
+.cat-head {
+  position: absolute;
+  background: #f9f8f2;
+  top: 58%;
+  left: 53.8%;
+  width: 6%;
+  height: 9%;
+  -moz-border-radius: 35%;
+  -webkit-border-radius: 35%;
+  border-radius: 40%;
+}
+
+.f-petal1 {
+  position: absolute;
+  background: #FFC9E4;
+  top: 30%;
+  left: 33%;
+  height: 14%;
+  width: 7%;
+  clip-path: ellipse(7% 40% at 50% 50%);
+}
+
+.f-petal2 {
+  position: absolute;
+  background: #FFC9E4;
+  top: 32%;
+  left: 32%;
+  height: 14%;
+  width: 7%;
+  clip-path: ellipse(9% 40% at 50% 50%);
+  transform: skew(30deg, 20deg);
+}
+
+.f-petal3 {
+  position: absolute;
+  background: #FFC9E4;
+  top: 28%;
+  left: 34%;
+  height: 12%;
+  width: 7%;
+  clip-path: ellipse(7% 40% at 50% 50%);
+  transform: skew(10deg, 20deg);
+}
+
+.f-petal4 {
+  position: absolute;
+  background: #FFC9E4;
+  top: 31%;
+  left: 38%;
+  height: 12%;
+  width: 7%;
+  clip-path: ellipse(7% 40% at 40% 50%);
+  transform: skew(30deg, 20deg);
+}
+
+.f-petal5 {
+  position: absolute;
+  background: #FFC9E4;
+  top: 29%;
+  left: 36%;
+  height: 12%;
+  width: 7%;
+  clip-path: ellipse(8% 40% at 50% 50%);
+  transform: skew(30deg, 27deg);
+}
+
+.vase {
+  position: absolute;
+  top: 36%;
+  left: 35%;
+  height: 14%;
+  width: 8%;
+  background: #F7F6F6;
+  border-radius: 20%;
+  border-top-right-radius: 80%;
+  border-top-left-radius: 80%;
+  border-bottom-right-radius: 70%;
+  border-bottom-left-radius: 70%;
+}
