@@ -1,13 +1,15 @@
-	@font-family {
-
-	}
+	@font-face {
+	font-family: "NHaasGroteskTXPro"; src: url("../fonts/NHaasGroteskTXPro/NHaasGroteskTXPro-55Rg.ttf");
+	font-family: "NHaasGroteskTXPro"; src: url("../fonts/NHaasGroteskTXPro/NHaasGroteskTXPro-65Md.ttf");
+	font-family: "NHaasGroteskTXPro"; src: url("../fonts/NHaasGroteskTXPro/NHaasGroteskTXPro-75Bd.ttf");
+}
 
 body {
 	background: black;
 }
 
 a {
-	font-family: sans-serif;
+	font-family: "NHaasGroteskTXPro", sans-serif;
 	color: white;
 	text-align: center;
 	text-decoration: none;
