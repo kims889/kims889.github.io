@@ -1,0 +1,41 @@
+	@font-face {
+	font-family: "Ubuntu"; src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf");
+	font-family: "Ubuntu"; src: url("../fonts/Ubuntu/Ubuntu-Medium.ttf");
+	font-family: "Ubuntu"; src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+	font-family: "Ubuntu"; src: url("../fonts/Ubuntu/Ubuntu-light.ttf");
+}
+
+body {
+	background: #9EBE98;
+
+}
+
+.container {
+	padding-top: 4%;
+	float: bottom;
+	line-height: 7vw;
+	display: block;
+}
+
+.title {
+	font-family: "Ubuntu-medium", Arial, sans-serif;
+	color: white;
+	padding-left: 15%;
+	position: absolute;
+	text-decoration: none;
+
+}
+
+a {
+	font-family: "Ubuntu", Arial, sans-serif;
+	position: absolute;
+	color: white;
+	text-align: right;
+	text-decoration: none;
+	font-size: 30px;
+	padding-top: 8vw;
+	padding-left: 40%;	
+	letter-spacing: 0.8px;
+	line-height: 35px;
+}
+
