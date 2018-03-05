@@ -13,7 +13,6 @@ body {
 .container {
 	padding-top: 4%;
 	float: bottom;
-	line-height: 7vw;
 	display: block;
 }
 
@@ -33,9 +32,9 @@ a {
 	text-align: right;
 	text-decoration: none;
 	font-size: 30px;
-	padding-top: 8vw;
+	padding-top: 10vw;
 	padding-left: 40%;	
 	letter-spacing: 0.8px;
-	line-height: 35px;
+	line-height: 20%;
 }
 
