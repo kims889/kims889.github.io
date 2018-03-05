@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-	padding-top: 3%;
+	padding-top: 5%;
 	float: bottom;
 	display: block;
 }
@@ -20,6 +20,7 @@ body {
 	font-family: "Ubuntu-medium", Arial, sans-serif;
 	color: white;
 	padding-left: 12%;
+	font-size: 35px;
 	position: absolute;
 	text-decoration: none;
 
@@ -34,7 +35,7 @@ a {
 	font-size: 30px;	
 	letter-spacing: 0.8px;
 	line-height: 20%;
-	padding-left: 40vw;
+	padding-left: 35vw;
 }
 
 .container-2 {
