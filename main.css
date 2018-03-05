@@ -17,12 +17,13 @@ body {
 }
 
 .title {
-	font-family: "Ubuntu-medium", Arial, sans-serif;
+	font-family: "Ubuntu", Arial, sans-serif;
 	color: white;
 	padding-left: 12%;
 	font-size: 35px;
 	position: absolute;
 	text-decoration: none;
+	font-weight: bold;
 
 }
 

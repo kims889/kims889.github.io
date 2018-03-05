@@ -1,6 +1,12 @@
+	@font-face {
+	font-family: "Open_Sans"; src: url("..assets/fonts/Open_Sans/Open_Sans-Bold.ttf");
+	font-family: "Open_Sans"; src: url("..assets/fonts/Open_Sans/Open_Sans-SemiBold.ttf");
+	font-family: "Open_Sans"; src: url("..assets/fonts/Open_Sans/Open_Sans-Regular.ttf");	
+}
+
 	body {
 		background-color: #DDE2BD;
-		font-family: Opensans;
+		font-family: "Open_Sans", sans-serif;
 		font-size: 30px;
 		color: white;
 		line-height: 37px;
@@ -29,28 +35,25 @@
 
 	h3 {
 		padding-top: 20%;
-		left:;
 		text-align: center;
 		letter-spacing: 1px;
 	}
 
 .content1 {
 	padding-left: 10%;
-	letter-spacing: 1px;
-	
 }
 
 .content2 {
 	padding-top: 5%;
-	padding-left: 20%%;
+	padding-left: 10%;
 }
 
 .content3 {
-	padding-top: 22%;
-	padding-left: 40%;
+	padding-top: 5%;
+	padding-left: 30%;
 }
 
 .content4 {
-	padding-top: 
-	padding-right: 40px;
+	padding-top: 5%;
+	padding-left: 40%;
 }
