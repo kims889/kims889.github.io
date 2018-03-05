@@ -1,0 +1,47 @@
+/* Your styles go here */
+@font-face {font-family: "KronaOne-Regular"; src: url("../fonts/Krona_One/KronaOne-Regular.ttf"); }
+
+.content {
+	font-family: "KronaOne-Regular";
+
+}
+
+.black {
+	font-family: "KronaOne-Regular";
+	font-size: 90px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	line-height: 110px;
+	display: flex;
+	padding-left: 3%;
+
+}
+
+span {
+	color:red;
+}
+
+.red {
+	position: absolute;
+	font-family: "KronaOne-Regular";
+	font-size: 90px;
+	font-weight: bolder;
+	color: #EB3636;
+	letter-spacing: 2px;
+	line-height: 110px;
+	padding-left: 42%;
+	
+
+
+}
+
+
+.regular {
+	font-family: sans-serif;
+	font-size: 15px;
+	display: flex;
+	top: 10%;
+	padding-left: 3%;
+
+	
+}

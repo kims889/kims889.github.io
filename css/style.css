@@ -1,18 +1,11 @@
-.body {
-	font-family: Helvetica Neue;
-
+@font-face {
+	font-family: "NHaasGroteskTXPro"; src: url("../fonts/NHaasGroteskTXPro/NHaasGroteskTXPro-55Rg.ttf");
+	font-family: "NHaasGroteskTXPro"; src: url("../fonts/NHaasGroteskTXPro/NHaasGroteskTXPro-65Md.ttf");
+	font-family: "NHaasGroteskTXPro"; src: url("../fonts/NHaasGroteskTXPro/NHaasGroteskTXPro-75Bd.ttf");
 }
 
-.bar {
-    background-color: #F9E79F;
-    color: white;
-    font-family: franklin gothic;
+a {
+	font-family: "NHaasGroteskTXPro", sans-serif;
+	font-size: 30px;
+	letter-spacing: 1px;
 }
-
-.bar2 {
-	background-color: #D7BDE2;
-    color: white;
-    font-family: franklin gothic;
-    padding: 10px;
-}
-
