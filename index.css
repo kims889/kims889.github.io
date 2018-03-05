@@ -1,8 +1,17 @@
+	@font-family {
+
+	}
+
 body {
 	background: black;
 }
 
 a {
+	font-family: sans-serif;
 	color: white;
 	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+	padding-left: 40%;
+	
 }
