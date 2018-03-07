@@ -1,1 +1,40 @@
 /* Your styles go here */
+.box-content{
+	width:20%;
+	height:15%;
+	background-color: #1FBCD5;
+	position:fixed;
+	left:40%;
+	top:40%;
+}
+
+.box-one{
+	background-color: #4150B5;
+	width:15%;
+	height:33.33%;
+	left:0%;
+	position:absolute;
+}
+.box-two{
+	background-color: #4150B5;
+	width:15%;
+	height:33.33%;
+	right:0%;
+	position:absolute;
+}
+.box-three{
+	background-color: #4150B5;
+	width:15%;
+	height:33.33%;
+	right:0%;
+	bottom:0%;
+	position:absolute;
+}
+.box-four{
+	background-color: #4150B5;
+	width:15%;
+	height:33.33%;
+	left:0%;
+	bottom:0%;
+	position:absolute;
+}

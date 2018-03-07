@@ -1,17 +1,72 @@
 /* Your styles go here */
-
-.box {
-
-}
-
-
-.box-green {
-	background: #CBDD38;	
+.box-1 {
+	width: 33.33%;
+	height: 33.33%;
+	float:left;
+	background-color: #CBDD38;
 	display: inline-block;
-	height: 
 }
 
-.box-grey {
-	background: #617D8C;
-	display: inline-flex;
+.box-2 {
+	width: 33.33%;
+	height: 33.33%;
+	float:left;
+	background-color: white;
+	display: inline-block;
+}
+
+.box-3 {
+	display: inline-block;
+	width:33.33%;
+	height:33.33%;
+	float:left;
+	background-color: #CBDD38;
+}
+
+.box-4 {
+	display: inline-block;
+	width:33.33%;
+	height:33.33%;
+	float:left;
+	background-color: white;
+}
+
+.box-5 {
+	display: inline-block;
+	width:33.33%;
+	height:33.33%;
+	float:left;
+	background-color: #617D8C;
+}
+
+.box-6 {
+	display: inline-block;
+	width:33.33%;
+	height:33.33%;
+	float:left;
+	background-color: white;
+}
+
+.box-7 {
+	display: inline-block;
+	width:33.33%;
+	height:33.33%;
+	float:left;
+	background-color: #CBDD38;
+}
+
+.box-8 {
+	display: inline-block;
+	width:33.33%;
+	height:33.33%;
+	float:left;
+	background-color: white;
+}
+
+.box-9 {
+	display: inline-block;
+	width:33.33%;
+	height:33.33%;
+	float:left;
+	background-color: #CBDD38;
 }

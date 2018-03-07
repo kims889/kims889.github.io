@@ -40,15 +40,13 @@ a {
 }
 
 .container-2 {
-	
+	display: inline-block;
 	padding-top: 10vw;
-	
 }
 
 .container-3 {
-	
+	display: inline-block;
 	padding-top: 3vw;
-	
 }
 
 .container-4 {
