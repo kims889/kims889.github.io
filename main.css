@@ -1,16 +1,19 @@
+/*
 	@font-face {
 	font-family: "Ubuntu"; src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf");
 	font-family: "Ubuntu"; src: url("../fonts/Ubuntu/Ubuntu-Medium.ttf");
 	font-family: "Ubuntu"; src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
 	font-family: "Ubuntu"; src: url("../fonts/Ubuntu/Ubuntu-light.ttf");
 }
+*/
 
 body {
 	background: #9EBE98;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .soyeon {
-	font-family: "Ubuntu", Arial, sans-serif;
+	font-family: "Ubuntu";
 	color: white;
 	padding-left: 10vw;
 	padding-top: 3vw;
@@ -18,23 +21,26 @@ body {
 	text-decoration: none;
 	font-weight: bold;
 	line-height:0.9em;
+	position: relative;
 }
 
 a {
-	font-family: "Ubuntu", Arial, sans-serif;
+	font-family: "Ubuntu";
 	color: white;
 	text-decoration: none;
 	font-size: 3vw;	
-	letter-spacing: 0.6px;
+	letter-spacing: 0.1em;
 	line-height: 30%;
 	padding-top: 2vw;
 	padding-left: 68vw;
 	text-align: right;
+	display: flex;
+	
 }
 
 
 /*
-.container-1 {
+.box-1 {
 	margin-left: 15vw;
 	height: 12vw; 
 	width: 20vw; 
@@ -44,7 +50,7 @@ a {
 
 }
 
-.container-2 {
+.box-2 {
 	display: inline-block;
 	margin-left: 25vw;
 	height: 12vw; 
@@ -54,7 +60,7 @@ a {
 	background-color: #E0C6C7;
 }
 
-.container-3 {
+.box-3 {
 	display: inline-block;
 	margin-left: 30vw;
 	height: 12vw; 
