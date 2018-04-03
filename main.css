@@ -1,17 +1,16 @@
 	@font-face {
-	font-family: "Ubuntu"; src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf");
-	font-family: "Ubuntu"; src: url("../fonts/Ubuntu/Ubuntu-Medium.ttf");
-	font-family: "Ubuntu"; src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
-	font-family: "Ubuntu"; src: url("../fonts/Ubuntu/Ubuntu-light.ttf");
+	font-family: "BBLD"; src: url("../fonts/BBLD.otf");
+	font-family: "BBLK"; src: url("../fonts/BBLK.otf");
+	font-family: "BMED"; src: url("../fonts/BMED.otf");
 }
 
 body {
 	background: #9EBE98;
-	font-family: "Ubuntu", sans-serif;
+	font-family: "BMED", sans-serif;
 }
 
 .header {
-	font-family: "Ubuntu";
+	font-family: "BBLK";
 	font-weight: italic;
 	color: white;
 	padding-left: 10vw;
@@ -24,7 +23,7 @@ body {
 }
 
 a {
-	font-family: "Ubuntu";
+	font-family: "BMED";
 	color: white;
 	text-decoration: none;
 	font-size: 2vw;	
