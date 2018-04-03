@@ -10,8 +10,9 @@ body {
 	font-family: "Ubuntu", sans-serif;
 }
 
-.soyeon {
+.header {
 	font-family: "Ubuntu";
+	font-weight: italic;
 	color: white;
 	padding-left: 10vw;
 	padding-top: 3vw;
@@ -26,45 +27,13 @@ a {
 	font-family: "Ubuntu";
 	color: white;
 	text-decoration: none;
-	font-size: 3vw;	
-	letter-spacing: 0.1em;
-	line-height: 30%;
-	padding-top: 2vw;
-	padding-left: 68vw;
-	text-align: right;
-	display: flex;
-	
+	font-size: 2vw;	
+	line-height: 10%;
+	margin-top: 1.7vw;
+	padding-left: 56vw;
+	text-align: left;
+	display: grid;
+	grid-gap: 1.5%;	
 }
 
 
-/*
-.box-1 {
-	margin-left: 15vw;
-	height: 12vw; 
-	width: 20vw; 
-	top: 10vw;
-	border-radius: 2.5%;
-	background-color: #E0C6C7;
-
-}
-
-.box-2 {
-	display: inline-block;
-	margin-left: 25vw;
-	height: 12vw; 
-	width: 20vw; 
-	top: 10vw;
-	border-radius: 2.5%;
-	background-color: #E0C6C7;
-}
-
-.box-3 {
-	display: inline-block;
-	margin-left: 30vw;
-	height: 12vw; 
-	width: 20vw; 
-	top: 10vw;
-	border-radius: 2.5%;
-	background-color: #E0C6C7;
-}
-*/
