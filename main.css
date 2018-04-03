@@ -6,24 +6,22 @@
 
 body {
 	background: #9EBE98;
-	font-family: "BMED", sans-serif;
+	font-family: BMED, Arial;
 }
 
 .header {
-	font-family: "BBLK";
-	font-weight: italic;
+	font-family: BBLK, Arial;
+	font-weight: 900;
 	color: white;
 	padding-left: 10vw;
 	padding-top: 3vw;
 	font-size: 5.1vw;
 	text-decoration: none;
-	font-weight: bold;
 	line-height:0.9em;
-	position: relative;
 }
 
 a {
-	font-family: "BMED";
+	font-family: BMED, Arial;
 	color: white;
 	text-decoration: none;
 	font-size: 2vw;	
