@@ -10,6 +10,21 @@ a {
 	width: auto;
 }
 
+h1 {
+	font-family: Arial;
+	font-size: 2.2vw;
+	margin-left: 2%;
+	color: #EEAAAC, #7A62A3;
+}
+
+
+.box:hover {
+	color: #7A62A3;
+	cursor: pointer;
+	padding: auto;
+}
+
+
 .box-1 {
 	display: inline-block;
 	width: 100%;
