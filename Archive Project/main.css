@@ -1,0 +1,46 @@
+/* reset */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* type */
+body {
+	font-family: "arial";
+	text-align: center;	
+	background-color: #E3BEC2;
+}
+
+video {
+  width: 100%;
+}
+
+h1 {
+	font-size: 6.8vw;
+	letter-spacing: 0.5px;
+	margin-top: 3%;
+	color: white;
+}
+
+.content {
+	max-width: 815px;
+  /*width: 816px;*/
+	padding: 100px 30px;
+	margin: auto;
+}
+
+li {
+	font-size: 2vw;
+	line-height: 4px;
+}
+
+p {
+	font-size: 30px;
+	padding-bottom: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}

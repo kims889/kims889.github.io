@@ -1,13 +1,13 @@
 @font-face {
-	font-family: "Montserrat"; src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
-	font-family: "Montserrat"; src: url("../fonts/Montserrat/Montserrat-Semibold.ttf");
-	font-family: "Montserrat"; src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
-	font-family: "Montserrat"; src: url("../fonts/Montserrat/Montserrat-medium.ttf");
-	font-family: "Montserrat"; src: url("../fonts/Montserrat/Montserrat-light.ttf"); 
+	font-family: "Montserrat"; src: url("../fonts/Montserrat-Regular.ttf");
+	font-family: "Montserrat"; src: url("../fonts/Montserrat-Semibold.ttf");
+	font-family: "Montserrat"; src: url("../fonts/Montserrat-Bold.ttf");
+	font-family: "Montserrat"; src: url("../fonts/Montserrat-medium.ttf");
+	font-family: "Montserrat"; src: url("../fonts/Montserrat-light.ttf"); 
 }
 
 .title {
-	font-family: Montserrat-Bold, sans-serif;
+	font-family: 'Montserrat-Bold', arial;
 	font-size: 100px;
 	font-weight: bolder;
 	padding-top: 25%;
@@ -16,7 +16,7 @@
 }
 
 .text {
-	font-family: Montserrat-medium, sans-serif;
+	font-family: 'Montserrat-Medium', arial;
 	font-size: 42px;
 	font-weight: medium;
 	text-align: center; 
@@ -25,11 +25,19 @@
 }
 
 .name {
-	font-family: Montserrat-light;
+	font-family: 'Montserrat-Light', arial;
 	font-size: 23px;
 	text-align: center;
 	font-weight: lighter;
 	margin-top: -110px;
+}
+
+.answer a {
+	color: black;
+}
+
+a {
+	color: black;
 }
 
 /*
@@ -43,7 +51,7 @@
 */
 
 .question {
-	font-family: Montserrat-Semibold;
+	font-family: 'Montserrat-SemiBold', arial;
 	font-size: 50px;
 	font-weight: medium;
 	text-align: center;
@@ -51,7 +59,7 @@
 }
 
 .answer {
-	font-family: Montserrat-Semibold;
+	font-family: 'Montserrat-SemiBold', arial;
 	font-size: 50px;
 	text-align: center;
 	font-weight: bold;
@@ -62,13 +70,13 @@
 }
 
 .content {
-	font-family: Montserrat-Semibold;
+	font-family: 'Montserrat-SemiBold', arial;
 	text-align: center;
 	padding-top: 38%;
 }
 
 .arrow {
-	font-family: Montserrat-Semibold;
+	font-family: 'Montserrat-SemiBold', arial;
 	font-size: 60px;
 	text-align: left;
 	padding-left: 25px;
@@ -77,23 +85,26 @@
 	top: 47%;
 	left: 0;
 	margin-top: -95px;
+	color: black;
 }
 
 .yes {
-	font-family: Montserrat-Semibold;
+	font-family: 'Montserrat-SemiBold', arial;
 	font-size: 50px;
 	font-weight: bold;
 	letter-spacing: 1.4px;
 	line-height: 72px;
+	color: black;
 }
 
 .no {
-	font-family: Montserrat-Semibold;
+	font-family: 'Montserrat-SemiBold', arial;
 	font-size: 50px;
 	font-weight: bold;
 	text-align: center;
 	letter-spacing: 1.4px;
 	padding-bottom: 20%;
+	color: black;
 }
 
 #box {
