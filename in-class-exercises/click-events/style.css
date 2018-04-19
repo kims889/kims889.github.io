@@ -1,0 +1,20 @@
+/* Your styles go here */
+#header {
+	font-family: arial;
+	font-size: 27px;
+	padding: 17px 17px;
+	border-style: solid;
+	margin-top: 5%;
+	display: inline-block;
+	margin-left: 41%;
+
+}
+
+
+p {
+	font-family: Times New Roman;
+	text-align: center;
+	font-size: 70px;
+	
+}
+

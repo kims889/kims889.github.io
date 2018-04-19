@@ -1,0 +1,27 @@
+/* Your styles go here */
+#header {
+	font-family: arial;
+	font-size: 27px;
+	padding: 17px 17px;
+	border-style: solid;
+	margin-top: 5%;
+	display: inline-block;
+	margin-left: 41%;
+
+}
+
+
+#number {
+	font-family: sans-serif;
+	font-size: 20px;
+	display: inline-block;
+	padding: 25px 25px;
+	color: #6A37B7;
+	margin-top: 7%;
+	width: 100px;
+	height:100px;
+
+	border-style: solid;
+	
+}
+

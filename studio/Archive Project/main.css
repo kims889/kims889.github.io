@@ -21,6 +21,13 @@ h1 {
 	letter-spacing: 0.5px;
 	margin-top: 3%;
 	color: white;
+	cursor: pointer;
+}
+
+h3 {
+	font-size: 2.1vw;
+	letter-spacing: 0.5px;
+	padding-top: 10px;
 }
 
 .content {
@@ -37,10 +44,16 @@ li {
 
 p {
 	font-size: 30px;
-	padding-bottom: 15px;
+	padding-bottom: 5%;
+	letter-spacing: 0.5px;
+	padding-top: 10px;
 }
 
 a {
 	text-decoration: none;
 	color: white;
+}
+
+source {
+	padding-bottom: 10px;
 }
