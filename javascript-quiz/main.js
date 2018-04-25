@@ -28,9 +28,32 @@ console.log();
 
 
 
+
+
+// 4
+ 
+
+// 5
+if ( all the students are in class)
+
+
+
+// 6
+for ( var i = 0; i < 7; i++ ) {
+  console.log('Soyeon', i);
+}
+
+
+
+
+// 7
+
+// 8
+
 // 9
 
 var myFavoriteFood = ['avocado', 'sushi', 'pizza'];
 var myFavoriteAnimals = ['bear', 'dog', 'bear'];
+var myFavoritePlaces = ['West village','','']
 
-
+// 10
