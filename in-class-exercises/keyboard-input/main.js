@@ -1,17 +1,6 @@
-$(function() {
-	console.log('hello');
-	console.log( $( "#header" ) );
+$(document).on('keypress', function(e) {
+  var key = e.key;
+  var img;
+  var text;
 
-	$( "#header" ).click(function() {
-		console.log('i clicked');
-		console.log('p elements', $('p'));
-			$("p").toggle();
-	});
-});
-
-
-$(function() {
-	$( "p" ).click(function() {
-		$("#header").toggle();
-	});
-});
+  console.log('keypress:', key);

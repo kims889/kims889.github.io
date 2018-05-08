@@ -1,17 +1,11 @@
-$(function() {
-	console.log('hello');
-	console.log( $( "#header" ) );
+$(document).on('click', function(event) {
+  event.preventDefault();
 
-	$( "#header" ).click(function() {
-		console.log('i clicked');
-		console.log('p elements', $('p'));
-			$("p").toggle();
-	});
-});
+  var $clickTarget = $(event.target);
 
+  $clickTarget.css({ transform: 'scale(' + randomNumber(0.5, 1.5) + ')' });
 
-$(function() {
-	$( "p" ).click(function() {
-		$("#header").toggle();
-	});
+  function randomNumber(min, max) {
+    return Math.random() * (max - min) + min;
+  }
 });

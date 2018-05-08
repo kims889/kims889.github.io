@@ -1,17 +1,10 @@
-$(function() {
-	console.log('hello');
-	console.log( $( "#header" ) );
+var documentHeight = $(document).height();
+var windowHeight = $(window).height();
 
-	$( "#header" ).click(function() {
-		console.log('i clicked');
-		console.log('p elements', $('p'));
-			$("p").toggle();
-	});
-});
+$(window).on('scroll', function() {
+  var scrollTop = $(this).scrollTop();
 
-
-$(function() {
-	$( "p" ).click(function() {
-		$("#header").toggle();
-	});
+  if ( scrollTop + windowHeight >= documentHeight ) {
+    $(window).scrollTop(0);
+  }
 });

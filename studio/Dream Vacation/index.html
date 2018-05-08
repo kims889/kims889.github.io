@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dream Vacation</title>
+    <link rel="stylesheet" href="main.css" img src="assets/imgs" media="all" type="text/css">
+    <link rel="icon" href="imgs/favicon.png" type="image/x-icon"/>
+    <script src="jquery-3.2.1.min.js"></script>
+  	<script src="main.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <h1 class="title"><a href="index.html" class="main">tunes</a></h1>
+    <div class="flex-container">
+      <div class="album">
+        <img src="assets/img/peachpit.jpg" height="100" width="100" value="PLAY" onclick="play()">
+        <div class="overlay">
+          <div class='text'>Tommy's Party<br>Peach Pit</br>
+          </div>
+        </div>
+      </div>
+
+      <div class="album">
+        <img src="assets/img/triathalon.jpg" height="100" width="100" value="PLAY" onclick="play()">
+        <div class="overlay">
+          <div class='text'>Hawaiian Boi<br>Triathalon</br>
+          </div>
+        </div>
+      </div>
+      <div class="album">
+        <img src="assets/img/goodmorning.jpeg" height="100" width="100 value="PLAY" onclick="play()">
+        <div class="overlay">
+          <div class='text'>Radiovoice<br>Good Morning</br>
+          </div>
+        </div>
+      </div>
+      <div class="album">
+        <img src="assets/img/thewalters.jpg" height="100" width="100 value="PLAY" onclick="play()">
+        <div class="overlay">
+          <div class='text'>I Love You So<br>The Walters</br>
+          </div>
+        </div>
+      </div>
+      <div class="album">
+        <img src="assets/img/rexorangecounty.jpg" height="100" width="100 value="PLAY" onclick="play()">
+        <div class="overlay">
+          <div class='text'>Sunflower<br>Rex Orange County</br>
+          </div>
+        </div>
+      </div>
+      <div class="album">
+        <img src="assets/img/ohhyuk.jpg" height="100" width="100 value="PLAY" onclick="play()">
+        <div class="overlay">
+          <div class='text'>Isn't She Lovely<br>OHHYUK</br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="audio-container">
+      <div id="button">
+        <div class="mid"></div>
+      </div>  
+      <div id="metronome">
+        <div class="bar"></div>
+        <div class="button"></div>
+          <div class="number">
+            <div class="top">220</div>
+          </div>
+      </div>
+
+      <audio id="audio">
+        <source src="assets/audio/goodmorning-radiovoice.mp3" type="audio/mpeg">
+        <source src="assets/audio/peachpit-tommysparty.mp3" type="audio/mpeg">
+        <source src="assets/audio/thewalters-iloveyouso.mp3" type="audio/mpeg">
+        <source src="assets/audio/rexorangecounty-sunflower.mp3" type="audio/mpeg">
+        <source src="assets/audio/triathalon-hawaiianboi.mp3" type="audio/mpeg">
+        <source src="assets/audio/ohhyuk-isntshelovely.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <audio id="myAudio">
+      <source src="assets/audio/rexorangecounty-sunflower.mp3" type="audio/mpeg">
+      <button class="play-button" type="button">Play Audio</button>
+      <button class="pause-button" type="button">Pause Audio</button>
+    </audio> 
+
+      <a href="#" onclick="playSound('assets/audio/triathalon-hawaiianboi.mp3');">Click</a>
+      <p onmouseover="playSound('assets/audio/triathalon-hawaiianboi.mp3');"></p>
+
+
+  </div>
+</body>
+</html>

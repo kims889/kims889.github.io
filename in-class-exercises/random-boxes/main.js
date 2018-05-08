@@ -1,17 +1,15 @@
-$(function() {
-	console.log('hello');
-	console.log( $( "#header" ) );
+function getRandomInt(min, max) {
+	return Math.floor(Math.random() * (max - min)) + min;
+}
 
-	$( "#header" ).click(function() {
-		console.log('i clicked');
-		console.log('p elements', $('p'));
-			$("p").toggle();
-	});
-});
-
+var box = ["1", "2", "3", "4"];
+var Random = box[Math.floor(Math.random() * box.length)];
+var lastClass;
 
 $(function() {
-	$( "p" ).click(function() {
-		$("#header").toggle();
-	});
+      $(".button").click( function(){
+      	lastClass = box[Random(0,box.length)];
+            $(".box").addClass("fill");
+           }
+      );
 });
