@@ -13,7 +13,7 @@
     <h1 class="title"><a href="index.html" class="main">tunes</a></h1>
     <div class="flex-container">
       <div class="album">
-        <img src="assets/img/peachpit.jpg" height="100" width="100" value="PLAY" onclick="play()">
+        <img src="assets/img/peachpit.jpg" height="100" width="100" value="PLAY">
         <div class="overlay">
           <div class='text'>Tommy's Party<br>Peach Pit</br>
           </div>
@@ -22,16 +22,16 @@
         type="audio/mpeg"></audio>  
       </div>
       <div class="album">
-        <img src="assets/img/triathalon.jpg" height="100" width="100" value="play" onclick="play()">
+        <img src="assets/img/triathalon.jpg" height="100" width="100" value="play">
         <div class="overlay">
           <div class='text'>Hawaiian Boi<br>Triathalon</br>
           </div>
         </div>
-        <audio class="audio-file" id="triathalon-hawaiianboi" src="triathalon-hawaiianboi.mp3" 
+        <audio class="audio-file" id="triathalon-hawaiianboi" src="assets/audio/triathalon-hawaiianboi.mp3" 
         type="audio/mpeg"></audio>  
       </div>
       <div class="album">
-        <img src="assets/img/goodmorning.jpeg" height="100" width="100" value="play" onclick="play()">
+        <img src="assets/img/goodmorning.jpeg" height="100" width="100" value="play">
         <div class="overlay">
           <div class='text'>Radiovoice<br>Good Morning</br>
           </div>
@@ -40,7 +40,7 @@
         type="audio/mpeg"></audio>  
       </div>
       <div class="album">
-        <img src="assets/img/thewalters.jpg" height="100" width="100" value="play" onclick="play()">
+        <img src="assets/img/thewalters.jpg" height="100" width="100" value="play">
         <div class="overlay">
           <div class='text'>I Love You So<br>The Walters</br>
           </div>
@@ -49,7 +49,7 @@
         type="audio/mpeg"></audio>  
       </div>
       <div class="album">
-        <img src="assets/img/rexorangecounty.jpg" height="100" width="100" value="play" onclick="play()">
+        <img src="assets/img/rexorangecounty.jpg" height="100" width="100" value="play">
         <div class="overlay">
           <div class='text'>Sunflower<br>Rex Orange County</br>
           </div>
@@ -58,31 +58,53 @@
         type="audio/mpeg"></audio> 
       </div>
       <div class="album">
-        <img src="assets/img/ohhyuk.jpg" height="100" width="100" value="play" onclick="play()">
+        <img src="assets/img/ohhyuk.jpg" height="100" width="100" value="play">
         <div class="overlay">
           <div class='text'>Isn't She Lovely<br>OHHYUK</br>
           </div>
         </div> 
-        <audio class="audio-file" id="ohhyuk-isntshelovely" src="ohhyuk-isntshelovely.mp3" 
+        <audio class="audio-file" id="ohhyuk-isntshelovely" src="assets/audio/ohhyuk-isntshelovely.mp3" 
         type="audio/mpeg"></audio>  
       </div>
     </div>
 
+    <div class="player-container">
+      <div class="player-control">
+        <ul class="control-list">
+          <li>
+            <a href="#"><div class="control-item previous-button-img"></div></a>
+          </li>
+          <li>
+            <div id="play-button" class="play-button"><div class="control-item play-button-img"></div></div>
+          </li>
+          <li>
+            <a href="#"><div class="control-item next-button-img"></div></a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <div class="audio-container">
-      <div id="button">
+<!--       <div id="button">
         <div class="mid"></div>
       </div>  
       <div id="metronome">
         <div class="bar"></div>
         <div class="bpm-slider"></div>
-          <div class="number">
+    
+          <div class="controls">        
+           
             <div class="top">220</div>
           </div>
-      </div>
-
-      <button class="play-button" type="button">Play</button>
-      <button class="pause-button" type="button">Pause</button>
-
-  </div>
+        </div>
+      </div> -->
+      <div id="bpm">1</div>
+      <div id="metronome">
+        <input class ="slider" type="range" min="0.1" max="2" value="1" step="0.1"/>BPM
+      </div> 
+      <div class="animation">
+      <div class="element"></div>
+    </div>
+    </div>
+   
 </body>
 </html>
