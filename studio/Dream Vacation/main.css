@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'BGB';src: url("font/BGB.otf");
-	font-family: 'BGM';src: url("font/BGM.otf");
+	font-family: 'BGM';src: url("font/BGM.otf") format('otf'); 
 }
 
 html, body {
